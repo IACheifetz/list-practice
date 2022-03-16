@@ -14,5 +14,8 @@ export function renderIdioms(idiom) {
 
         idiomsEl.append(idiomBodyEl);
     }
+
+    idiomEl.append(idiomBodyEl);
+
     return idiomEl;
 }
