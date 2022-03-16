@@ -125,7 +125,7 @@ footer {
       margin: 5px;
   }
 
-  .candy-list .album-list {
+  .candy-list .album-list .idiom-list {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -142,4 +142,12 @@ footer {
     width: 500px;
 }
 
-  
+  .idioms {
+      padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 500px;
+}

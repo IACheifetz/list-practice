@@ -3,16 +3,16 @@ export function renderIdioms(idiom) {
     // <p>idiom goes here<p>
     // </div>
     const idiomEl = document.createElement('div');
-    const idiomList = document.createElement('p');
+    const idiomList = document.createElement('h4');
 
     idiomEl.classList.add('idioms');
 
     for (let idioms of idiom) {
-        const idiomsEl = document.createElement('p');
+        const idiomsOneEl = document.createElement('p');
+        idioms.idiom;
+        idiomsOneEl.textContent = idiom;
 
-        idiomsEl.textContent = idioms.idiom[0], idioms.idiom[1], idioms.idiom[2], idioms.idiom[3];
-
-        idiomEl.append(idiomList);
+        idiomList.append(idiomsOneEl);
     }
 
     idiomEl.append(idiomList);
