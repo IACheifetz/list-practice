@@ -3,19 +3,25 @@ export function renderIdioms(idiom) {
     // <p>idiom goes here<p>
     // </div>
     const idiomEl = document.createElement('div');
-    const idiomBodyEl = document.createElement('p');
+    const idiomBodyOneEl = document.createElement('p');
+    const idiomBodyTwoEl = document.createElement('p');
+    const idiomBodyThreeEl = document.createElement('p');
+    const idiomBodyFourEl = document.createElement('p');
 
     idiomEl.classList.add('idioms');
 
-    idiomBodyEl.textContent = idiom.idiomTag;
+    idiomBodyOneEl.textContent = idiom.idiom1;
+    idiomBodyTwoEl.textContent = idiom.idiom2;
+    idiomBodyThreeEl.textContent = idiom.idiom3;
+    idiomBodyFourEl.textContent = idiom.idiom4;
 
-    for (let idioms of idiom) {
-        const idiomsEl = renderIdioms(idioms);
+    // for (let idioms of idiom) {
+    //     const idiomsEl = renderIdioms(idioms);
 
-        idiomsEl.append(idiomBodyEl);
-    }
+    //     idiomsEl.append(idiomBodyEl);
+    // }
 
-    idiomEl.append(idiomBodyEl);
+    idiomEl.append(idiomBodyOneEl, idiomBodyTwoEl, idiomBodyThreeEl, idiomBodyFourEl);
 
     return idiomEl;
 }
