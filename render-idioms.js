@@ -8,11 +8,11 @@ export function renderIdioms(idiom) {
     idiomEl.classList.add('idioms');
 
     for (let idioms of idiom) {
-        const idiomsOneEl = document.createElement('p');
-        idioms.idiom;
-        idiomsOneEl.textContent = idiom;
+        const idiomsEl = document.createElement('p');
+        idiomsEl.textContent = idioms;
 
-        idiomList.append(idiomsOneEl);
+        idiomList.append(idioms);
+       
     }
 
     idiomEl.append(idiomList);
