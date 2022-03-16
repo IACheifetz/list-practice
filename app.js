@@ -20,7 +20,7 @@ for (let candy of candies) {
 //     idiomListEl.append(idiomsEl);
 // }
 
-import { albums } from '.album-data.js';
+import { albums } from './album-data.js';
 import { renderAlbum } from './render-album.js';
 
 const albumListEl = document.querySelector('.album-list');

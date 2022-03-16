@@ -1,5 +1,5 @@
 export function renderAlbum(album) {
-           // <div class="songs">
+           // <div class="albums">
             //     <h3>Around The World</h3>
             //     <p>Homework</p>
             //     <p>Artist: Daft Punk</p>
