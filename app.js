@@ -29,7 +29,9 @@ import { renderIdioms } from './render-idioms.js';
 const idiomListEl = document.querySelector('.idiom-list');
 
 for (let idiom of idioms) {
+  
     const idiomsEl = renderIdioms(idiom);
+
     idiomListEl.append(idiomsEl);
 }
   // get user input
